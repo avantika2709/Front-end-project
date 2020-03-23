@@ -1,0 +1,613 @@
+*
+{
+    margin: 0;
+    padding: 0;   
+}
+
+header
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(s3.jpg);
+    height: 70vh;
+    background-size: cover;
+    background-position: center;   
+    
+}
+
+
+.main-nav
+{
+    float: right;
+     list-style: none;
+    margin-top: 50px;
+}
+
+.main-nav li
+{
+    display: inline-block;
+
+}
+
+
+.main-nav li a
+{
+    color: black;
+    text-decoration: none;
+    padding:5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    
+}
+
+
+
+.main-nav li a:hover
+{
+    
+    border-bottom: black 1px dotted;
+}
+
+html,body
+{
+    height: 100%
+    font-family: monospace;
+    margin: 0px;
+}
+
+.row
+{
+    max-width: 1200px;
+    margin: auto;
+    
+}
+
+
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+    position: absolute;
+    left: 100px;
+    top: 15px;
+}
+
+
+h1{
+height: 950px;
+left: 150;
+transform: translateY(36%);
+transition-delay: 0.3s;
+transition-duration: 0.7s;
+font-size: 9rem;
+position: absolute;
+font-family: sans-serif;
+font-style: normal;
+color: black;
+font-weight: 700;
+}
+
+h2{
+    height: 900px;
+    left: 180;
+    font-size: 2.5rem;
+    transform: translateY(56%);
+    position: absolute;
+    font-style: normal;
+    color: black;
+   
+}
+
+p{
+    height: 1150px;
+    left: 180;
+    font-size: 1.5rem;
+    transform: translateY(56%);
+    position: absolute;
+    font-style: normal;
+    color: black;
+   
+}
+
+p1{
+    height: 1200px;
+    left: 180;
+    font-size: 1.5rem;
+    transform: translateY(56%);
+    position: absolute;
+    font-style: normal;
+    color: black;
+}
+
+p2{
+    height: 1300px;
+    left: 180;
+    font-size: 1.5rem;
+    transform: translateY(56%);
+    position: absolute;
+    font-style: normal;
+    color: black;
+}
+
+
+p3{
+    height: 1500px;
+    right: 400;
+    font-size: 1.5rem;
+    transform: translateY(56%);
+    position: absolute;
+    font-style: normal;
+    color: black;
+}
+
+h3{
+    font-size: 4rem;
+}
+
+p4{
+    height: 2150px;
+    left: 180;
+    font-size: 1.5rem;
+    transform: translateY(56%);
+    position: absolute;
+    font-style: normal;
+    color: black;
+}
+
+p5{
+    height: 2200px;
+    left: 180;
+    font-size: 1.5rem;
+    transform: translateY(56%);
+    position: absolute;
+    font-style: normal;
+    color: black;
+}
+
+
+p6{
+    height: 2150px;
+    right: 400;
+    font-size: 1rem;
+    transform: translateY(56%);
+    position: absolute;
+    font-style: normal;
+    color: black;   
+}
+
+p6 a:link {
+  color: black;
+ text-decoration:none;
+}
+
+p6 a:active {
+  color: black;
+}
+p6 a:visited {
+  color: black;
+}
+
+
+
+
+.al img{
+    float: right;
+    width: 50px;
+    height: auto;
+    position: absolute;
+    right: 350px;
+    bottom: 5px;
+    top: 1200px;
+}
+.al a:hover {
+  color: black;
+}
+
+.btn {
+ position: relative;
+ left: 160  ;
+ top: 1300;
+ color: gray;
+  outline: none;
+  float: left;
+  text-decoration:none;
+  border: none;
+  background-color: white;
+  padding: 14px 22px;
+  font-size: 12px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+
+
+.btn a:link {
+  color: black;
+ text-decoration:none;
+}
+
+.btn a:active {
+  color: black;
+}
+.btn a:visited {
+  color: black;
+}
+
+
+p7{
+    height: 2500px;
+    right: 500;
+    font-size: 1.55rem;
+    transform: translateY(56%);
+    position: absolute;
+    font-style: normal;
+    color: black; 
+    
+}
+
+p8{
+    height: 2900px;
+    right: 650;
+    font-size: 1rem;
+    transform: translateY(56%);
+    position: absolute;
+    font-style: normal;
+    color: black; 
+}
+
+p9{
+     height: 2300px;
+    left: 180;
+    font-size: 1.5rem;
+    transform: translateY(56%);
+    position: absolute;
+    font-style: normal;
+    color: black;
+}
+
+p10{
+     height: 2400px;
+    left: 180;
+    font-size: 1rem;
+    transform: translateY(56%);
+    position: absolute;
+    font-style: normal;
+    color: black;
+}
+
+p11{
+     height: 2400px;
+   left: 450;
+    font-size: 1rem;
+    transform: translateY(56%);
+    position: absolute;
+    font-style: normal;
+    color: black;
+}
+
+
+p12{
+     height: 2400px;
+    right: 530;
+    font-size: 1rem;
+    transform: translateY(56%);
+    position: absolute;
+    font-style: normal;
+    color: black;
+}
+
+
+
+p13{
+    
+ height: 2500px;
+    left: 180;
+    display: block;
+    font-size: .75rem;
+    transform: translateY(56%);
+    position: absolute;
+    font-style: normal;
+    color: black;   
+}
+
+p13 a:link {
+  color: grey;
+ text-decoration:none;
+}
+
+p13 a:hover {
+  color: black;
+}
+p13 a:active {
+  color: grey;
+}
+p13 a:visited {
+  color: grey;
+}
+
+
+
+
+
+p14{
+    
+ height: 2530px;
+    left: 180;
+    display: block;
+    font-size: .75rem;
+    transform: translateY(56%);
+    position: absolute;
+    font-style: normal;
+    color: black;   
+}
+
+p14 a:link {
+  color:grey;
+ text-decoration:none;
+}
+
+p14 a:hover {
+  color: black;
+}
+p14 a:active {
+  color: grey;
+}
+p14 a:visited {
+  color: grey;
+}
+
+
+
+
+
+p15{
+    
+ height: 2560px;
+    left: 180;
+    display: block;
+    font-size: .75rem;
+    transform: translateY(56%);
+    position: absolute;
+    font-style: normal;
+    color: black;   
+}
+
+p15 a:link {
+  color: grey;
+ text-decoration:none;
+}
+
+p15 a:hover {
+  color: black;
+}
+p15 a:active {
+  color: grey;
+}
+p15 a:visited {
+  color: grey;
+}
+
+
+
+
+
+p16{
+    
+ height: 2590px;
+    left: 180;
+    display: block;
+    font-size: .75rem;
+    transform: translateY(56%);
+    position: absolute;
+    font-style: normal;
+    color: black;   
+}
+
+p16 a:link {
+  color: grey;
+ text-decoration:none;
+}
+
+p16 a:hover {
+  color: black;
+}
+p16 a:active {
+  color: grey;
+}
+p16 a:visited {
+  color: grey;
+}
+
+
+
+
+p17{
+    
+ height: 2620px;
+    left: 180;
+    display: block;
+    font-size: .75rem;
+    transform: translateY(56%);
+    position: absolute;
+    font-style: normal;
+    color: black;   
+}
+
+p17 a:link {
+  color: grey;
+ text-decoration:none;
+}
+
+p17 a:hover {
+  color: black;
+}
+p17 a:active {
+  color: grey;
+}
+p17 a:visited {
+  color: grey;
+}
+
+
+p18{
+    height: 2500px;
+   left: 450;
+    display: block;
+    font-size: .75rem;
+    transform: translateY(56%);
+    position: absolute;
+    font-style: normal;
+    color: black;
+}
+
+p18 a:link {
+  color: grey;
+ text-decoration:none;
+}
+
+p18 a:hover {
+ border-bottom: black 1px dotted;
+  color: black;
+}
+p18 a:active {
+  color: grey;
+}
+p18 a:visited {
+  color: grey;
+}
+
+
+
+p19{
+ height: 2530px;
+   left: 450;
+    display: block;
+    font-size: .75rem;
+    transform: translateY(56%);
+    position: absolute;
+    font-style: normal;
+    color: black;
+}
+
+p19 a:link {
+  color: grey;
+ text-decoration:none;
+}
+
+p19 a:hover {
+  border-bottom: black 1px dotted;
+  color: black;
+}
+p19 a:active {
+  color: grey;
+}
+p19 a:visited {
+  color: grey;
+}
+
+
+
+
+
+input[type=text], input[type=username] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 4px 26px;
+  display: block;
+  border: none;
+  box-sizing: none;
+    outline: none;
+}
+
+.container {
+ position: relative;
+ left: 730;
+ top: 1360;
+ color: gray;
+  outline: none;
+  float: left;
+  text-decoration:underline;
+  border: none;
+  background-color: white;
+  padding: 10px 14px;
+  font-size: 10px;
+  cursor: pointer;
+  display: inline-block;
+  padding: 16px;
+}
+
+p20{
+  height: 2540px;
+    left: 795;
+    font-size: 1.5rem;
+    transform: translateY(56%);
+    position: absolute;
+    font-style: normal;
+    color: black;
+}
+
+.button {
+    position: relative;
+    height: auto;
+    width: 25%;
+ top: 1480;
+    left: 505;
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1 {
+  
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+}
+
+.button1:hover {
+  background-color: #555555;
+  color: white;
+}
+
+p21{
+     height: 2800px;
+    left: 180;
+    font-size: 1.5rem;
+    transform: translateY(56%);
+    position: absolute;
+    font-style: normal;
+    color: black;
+    
+}
+
+    
+p22{
+   height: 2900px;
+   left: 180;
+    font-size: .75rem;
+    transform: translateY(56%);
+    position: absolute;
+    font-style: normal;
+    color: dimgray;
+}
+
+#whole{
+    margin-bottom: -450px;
+}
+
+
+.ca img{
+    float: right;
+    width: 20px;
+    height: auto;
+    position: absolute;
+    right: 400px;
+    bottom: 5px;
+    top: 2100px;
+    }
+ 
